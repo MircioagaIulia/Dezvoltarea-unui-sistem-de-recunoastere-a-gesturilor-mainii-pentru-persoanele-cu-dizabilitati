@@ -1,0 +1,1 @@
+# Dezvoltarea-unui-sistem-de-recunoastere-a-gesturilor-mainii-pentru-persoanele-cu-dizabilitati
