@@ -29,42 +29,42 @@ Fisierul Python transmitere_arduino_raspberry.py preia datele de la Arduino, afi
 8. Inserează cardul SD bootabil în slotul corespunzător de pe Raspberry Pi.
 9. Conectează alimentarea la Raspberry Pi pentru a-l porni.
 10.Raspberry Pi va încărca sistemul de operare Raspbian OS de pe cardul SD și vei fi întâmpinat cu interfața de configurare inițială a Raspbian OS. 
-11.. Urmează ghidul de configurare inițială pentru a finaliza aceste setări și a obține un sistem de operare funcțional. Configurarea Display-ului, a conexiunii de internet, a interfețelor se realizează sin interfața de configurare, care se deschide cu ajutorul comenzii:
+11. Urmează ghidul de configurare inițială pentru a finaliza aceste setări și a obține un sistem de operare funcțional. Configurarea Display-ului, a conexiunii de internet, a interfețelor se realizează sin interfața de configurare, care se deschide cu ajutorul comenzii:
 sudo raspi-config
 12. Deschide terminalul pe Raspberry Pi și instalează Arduino IDE folosind următoarele comenzi:
--sudo apt update
--sudo apt install arduino
+sudo apt update
+sudo apt install arduino
 13. Conectează Arduino Uno la Raspberry Pi utilizând un cablu USB.
 14. Configurează Arduino IDE pentru a utiliza placa Arduino Uno și portul corespunzător.
-    Rularea fișierului se face cu ajutorul butonului Verify, iar încărcarea codului pe placa Arduino se face cu ajutorul butonului Upload.
+   Rularea fișierului se face cu ajutorul butonului Verify, iar încărcarea codului pe placa Arduino se face cu ajutorul butonului Upload.
 16. Configureaza Raspbian OS cu ajutorul comenzii (display, sistem, interfete,  internet)
-    sudo raspi-config
+sudo raspi-config
 17. Instalează Python 3.9.2 pe Raspberry Pi folosind următoarele comenzi:
-    sudo apt update
-    sudo apt install python3.9
+sudo apt update
+sudo apt install python3.9
 18. Descarcă și instalează Thonny IDE pe Raspberry Pi folosind următoarele comenzi:
-    sudo apt update
-    sudo apt install thonny
+sudo apt update
+sudo apt install thonny
 11. Pentru rularea scripturilor de Python este necesară instalarea următoarelor biblioteci:
-    -serial:
-    pip install pyserial
-    -pygame
-    pip install pygame
-    -smbus
-    sudo apt install python3-smbus
-    -RPLCD
-    pip install RPLCD 
-    -requests
-    pip install requests
-    -numpy
-    pip install numpy
+-serial:
+pip install pyserial
+- pygame
+pip install pygame
+- smbus
+sudo apt install python3-smbus
+- RPLCD
+pip install RPLCD 
+- requests
+pip install requests
+- numpy
+pip install numpy
 12. Instalează VLC pentru redarea sunetelor
-    sudo apt update
-    sudo apt install vlc
+sudo apt update
+sudo apt install vlc
 13. Configurarea Bluetooth
-    sudo bluetoothctl
-    scan on – pentru scanarea dispozitivelor bluetooth active
-    pair 98:D3:51:F6:00:3F -imperecherea cu dispozitivul bluetooth HC-05 a carei adresa MAC este 98:D3:51:F6:00:3F
-    exit
-    sudo rfcomm bind  7 98:D3:51:F6:00:3F- crează legatura intre canalul Bluetooth serial si adresa MAC a dispozitivului HC-05 cu care dorim sa stabilim conexiunea. 
+sudo bluetoothctl
+scan on – pentru scanarea dispozitivelor bluetooth active
+pair 98:D3:51:F6:00:3F -imperecherea cu dispozitivul bluetooth HC-05 a carei adresa MAC este 98:D3:51:F6:00:3F
+exit
+sudo rfcomm bind  7 98:D3:51:F6:00:3F- crează legatura intre canalul Bluetooth serial si adresa MAC a dispozitivului HC-05 cu care dorim sa stabilim conexiunea. 
 După efectuarea pașilor de mai sus, sistemul de recunoaștere a gesturilor poate fi rulat apelând scriptul Python  transmitere_arduino_raspberry.py. Pentru funcționarea corectă este nevoie ca acest fișier să fie în acelasi folder cu folderul "audio" în interiorul căruia se află sunetele corespunzătoare fiecărui gest.
