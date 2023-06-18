@@ -32,8 +32,8 @@ Fisierul Python transmitere_arduino_raspberry.py preia datele de la Arduino, afi
 11.. Urmează ghidul de configurare inițială pentru a finaliza aceste setări și a obține un sistem de operare funcțional. Configurarea Display-ului, a conexiunii de internet, a interfețelor se realizează sin interfața de configurare, care se deschide cu ajutorul comenzii:
 sudo raspi-config
 12. Deschide terminalul pe Raspberry Pi și instalează Arduino IDE folosind următoarele comenzi:
-    sudo apt update
-    sudo apt install arduino
+-sudo apt update
+-sudo apt install arduino
 13. Conectează Arduino Uno la Raspberry Pi utilizând un cablu USB.
 14. Configurează Arduino IDE pentru a utiliza placa Arduino Uno și portul corespunzător.
     Rularea fișierului se face cu ajutorul butonului Verify, iar încărcarea codului pe placa Arduino se face cu ajutorul butonului Upload.
