@@ -5,8 +5,7 @@ import pygame
 from RPLCD.i2c import CharLCD
 
 # deschide portul serial la o rată de transfer de 9600 de biți pe secundă
-bluetooth = serial.Serial("/dev/rfcomm7",
-                          9600)  
+bluetooth = serial.Serial("/dev/rfcomm7", 9600)  
 
 # configurarea magistralei I2C cu indexul 1
 bus = smbus.SMBus(1)
