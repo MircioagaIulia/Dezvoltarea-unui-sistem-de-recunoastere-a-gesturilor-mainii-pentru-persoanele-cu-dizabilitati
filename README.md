@@ -1,4 +1,4 @@
-# Dezvoltarea unui sistem de recunoaștere a gesturilor mâinii pentru persoanele cu dizabilități de vorbire
+# Dezvoltarea unui sistem de recunoaștere a gesturilor mâinii destinat persoanelor cu dizabilități de vorbire
 
 # Descriere
 Lucrarea mea de licență constă în dezvoltarea unui sistem de recunoaștere a gesturilor pentru persoanele cu dizabilități de vorbire.      
