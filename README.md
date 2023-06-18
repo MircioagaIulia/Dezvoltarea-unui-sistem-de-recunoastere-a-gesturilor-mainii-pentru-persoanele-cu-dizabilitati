@@ -46,7 +46,7 @@ sudo apt install python3.9
 sudo apt update                    
 sudo apt install thonny                  
 11. Pentru rularea scripturilor de Python este necesară instalarea următoarelor biblioteci:                    
--serial:                  
+- serial:                  
 pip install pyserial                        
 - pygame                        
 pip install pygame                          
