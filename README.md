@@ -30,7 +30,7 @@ Fisierul Python transmitere_arduino_raspberry.py preia datele de la Arduino, afi
 9. Conectează alimentarea la Raspberry Pi pentru a-l porni.
 10.Raspberry Pi va încărca sistemul de operare Raspbian OS de pe cardul SD și vei fi întâmpinat cu interfața de configurare inițială a Raspbian OS. 
 11. Urmează ghidul de configurare inițială pentru a finaliza aceste setări și a obține un sistem de operare funcțional. Configurarea Display-ului, a conexiunii de internet, a interfețelor se realizează sin interfața de configurare, care se deschide cu ajutorul comenzii:
-sudo raspi-config
+-- sudo raspi-config
 12. Deschide terminalul pe Raspberry Pi și instalează Arduino IDE folosind următoarele comenzi:
 sudo apt update
 sudo apt install arduino
