@@ -1,7 +1,7 @@
 # Dezvoltarea unui sistem de recunoaștere a gesturilor mâinii destinat persoanelor cu dizabilități de vorbire
 
 # Descriere
-Lucrarea mea de licență constă în dezvoltarea unui sistem de recunoaștere a gesturilor pentru persoanele cu dizabilități de vorbire.      
+Lucrarea mea de licență constă în dezvoltarea unui sistem de recunoaștere a gesturilor destinat persoanelor cu dizabilități de vorbire.      
 Proiectul conține 4 fișiere și un folder: un fișier Arduino, 3 fișiere Python și un folder ce conține 50 de fișiere audio.        
 Fișierul Arduino este responsabil cu citirea datelor de la senzorii de flexie, cu recunoașterea gesturilor și cu trimiterea datelor   
 prin Bluetooth către Raspberry Pi. Fișierul Python transmitere_arduino_raspberry.py preia datele de la Arduino, le afișează pe un LCD  
